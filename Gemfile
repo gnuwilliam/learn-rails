@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.1'
 
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
@@ -11,7 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'activerecord-tableless'
-gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'compass-rails'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
@@ -20,5 +20,7 @@ gem 'simple_form'
 gem 'zurb-foundation'
 
 group :development do
-  gem 'better_errors' gem 'quiet_assets' gem 'rails_layout'
+  gem 'better_errors' 
+  gem 'quiet_assets' 
+  gem 'rails_layout'
 end
